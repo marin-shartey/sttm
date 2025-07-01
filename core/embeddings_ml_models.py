@@ -2,6 +2,9 @@ import numpy as np
 import pandas as pd
 from navec import navec
 
+"""
+Shallow feature based methods of text processing
+"""
 
 # TODO undefined vars
 

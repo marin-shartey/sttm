@@ -11,12 +11,12 @@ import pandas as pd
 from scipy.optimize import minimize
 from scipy.stats import spearmanr
 
-from app.text_features import TextFeatures
-from app.utils.utils import access_via_nd_index
-from app.utils.utils import add_date_if_not_present, to_date
-from app.utils.utils import between_dates
-from app.utils.utils import time_series_split
-from app.utils.utils import transform_to_rank
+from core.text_features import TextFeatures
+from core.utils.utils import access_via_nd_index
+from core.utils.utils import add_date_if_not_present, to_date
+from core.utils.utils import between_dates
+from core.utils.utils import time_series_split
+from core.utils.utils import transform_to_rank
 
 
 class SESTM:
