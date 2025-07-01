@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="47ff7ba4-f617-4ef0-bb44-873b31e6ef6e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_code_STTM/Data/news/kommersant_sample.csv" beforeDir="false" afterPath="$PROJECT_DIR$/app/Data/news/kommersant_sample.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_code_STTM/Data/news/ria_sample.csv" beforeDir="false" afterPath="$PROJECT_DIR$/app/Data/news/ria_sample.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_code_STTM/Data/news/vedomosti_sample.csv" beforeDir="false" afterPath="$PROJECT_DIR$/app/Data/news/vedomosti_sample.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_code_STTM/Data/time series/shares_TQBR_AFKS.csv" beforeDir="false" afterPath="$PROJECT_DIR$/app/Data/time series/shares_TQBR_AFKS.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_code_STTM/Data/time series/shares_TQBR_AFLT.csv" beforeDir="false" afterPath="$PROJECT_DIR$/app/Data/time series/shares_TQBR_AFLT.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_code_STTM/Data/time series/shares_TQBR_ALRS.csv" beforeDir="false" afterPath="$PROJECT_DIR$/app/Data/time series/shares_TQBR_ALRS.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_code_STTM/Data/time series/shares_TQBR_CBOM.csv" beforeDir="false" afterPath="$PROJECT_DIR$/app/Data/time series/shares_TQBR_CBOM.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_code_STTM/Data/time series/shares_TQBR_CHMF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/app/Data/time series/shares_TQBR_CHMF.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_code_STTM/Data/time series/shares_TQBR_DSKY.csv" beforeDir="false" afterPath="$PROJECT_DIR$/app/Data/time series/shares_TQBR_DSKY.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_code_STTM/Data/time series/shares_TQBR_FEES.csv" beforeDir="false" afterPath="$PROJECT_DIR$/app/Data/time series/shares_TQBR_FEES.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_code_STTM/Data/time series/shares_TQBR_FIVE.csv" beforeDir="false" afterPath="$PROJECT_DIR$/app/Data/time series/shares_TQBR_FIVE.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_code_STTM/Data/time series/shares_TQBR_GAZP.csv" beforeDir="false" afterPath="$PROJECT_DIR$/app/Data/time series/shares_TQBR_GAZP.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_code_STTM/Data/time series/shares_TQBR_GMKN.csv" beforeDir="false" afterPath="$PROJECT_DIR$/app/Data/time series/shares_TQBR_GMKN.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_code_STTM/Data/time series/shares_TQBR_HYDR.csv" beforeDir="false" afterPath="$PROJECT_DIR$/app/Data/time series/shares_TQBR_HYDR.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_code_STTM/Data/time series/shares_TQBR_IRAO.csv" beforeDir="false" afterPath="$PROJECT_DIR$/app/Data/time series/shares_TQBR_IRAO.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_code_STTM/Data/time series/shares_TQBR_LKOH.csv" beforeDir="false" afterPath="$PROJECT_DIR$/app/Data/time series/shares_TQBR_LKOH.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_code_STTM/Data/time series/shares_TQBR_LSRG.csv" beforeDir="false" afterPath="$PROJECT_DIR$/app/Data/time series/shares_TQBR_LSRG.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_code_STTM/Data/time series/shares_TQBR_MAGN.csv" beforeDir="false" afterPath="$PROJECT_DIR$/app/Data/time series/shares_TQBR_MAGN.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_code_STTM/Data/time series/shares_TQBR_MGNT.csv" beforeDir="false" afterPath="$PROJECT_DIR$/app/Data/time series/shares_TQBR_MGNT.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_code_STTM/Data/time series/shares_TQBR_MOEX.csv" beforeDir="false" afterPath="$PROJECT_DIR$/app/Data/time series/shares_TQBR_MOEX.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_code_STTM/Data/time series/shares_TQBR_MTSS.csv" beforeDir="false" afterPath="$PROJECT_DIR$/app/Data/time series/shares_TQBR_MTSS.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_code_STTM/Data/time series/shares_TQBR_NLMK.csv" beforeDir="false" afterPath="$PROJECT_DIR$/app/Data/time series/shares_TQBR_NLMK.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_code_STTM/Data/time series/shares_TQBR_NVTK.csv" beforeDir="false" afterPath="$PROJECT_DIR$/app/Data/time series/shares_TQBR_NVTK.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_code_STTM/Data/time series/shares_TQBR_PHOR.csv" beforeDir="false" afterPath="$PROJECT_DIR$/app/Data/time series/shares_TQBR_PHOR.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_code_STTM/Data/time series/shares_TQBR_PIKK.csv" beforeDir="false" afterPath="$PROJECT_DIR$/app/Data/time series/shares_TQBR_PIKK.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_code_STTM/Data/time series/shares_TQBR_PLZL.csv" beforeDir="false" afterPath="$PROJECT_DIR$/app/Data/time series/shares_TQBR_PLZL.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_code_STTM/Data/time series/shares_TQBR_POLY.csv" beforeDir="false" afterPath="$PROJECT_DIR$/app/Data/time series/shares_TQBR_POLY.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_code_STTM/Data/time series/shares_TQBR_QIWI.csv" beforeDir="false" afterPath="$PROJECT_DIR$/app/Data/time series/shares_TQBR_QIWI.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_code_STTM/Data/time series/shares_TQBR_ROSN.csv" beforeDir="false" afterPath="$PROJECT_DIR$/app/Data/time series/shares_TQBR_ROSN.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_code_STTM/Data/time series/shares_TQBR_RSTI.csv" beforeDir="false" afterPath="$PROJECT_DIR$/app/Data/time series/shares_TQBR_RSTI.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_code_STTM/Data/time series/shares_TQBR_RTKM.csv" beforeDir="false" afterPath="$PROJECT_DIR$/app/Data/time series/shares_TQBR_RTKM.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_code_STTM/Data/time series/shares_TQBR_RUAL.csv" beforeDir="false" afterPath="$PROJECT_DIR$/app/Data/time series/shares_TQBR_RUAL.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_code_STTM/Data/time series/shares_TQBR_SBER.csv" beforeDir="false" afterPath="$PROJECT_DIR$/app/Data/time series/shares_TQBR_SBER.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_code_STTM/Data/time series/shares_TQBR_SBERP.csv" beforeDir="false" afterPath="$PROJECT_DIR$/app/Data/time series/shares_TQBR_SBERP.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_code_STTM/Data/time series/shares_TQBR_SNGS.csv" beforeDir="false" afterPath="$PROJECT_DIR$/app/Data/time series/shares_TQBR_SNGS.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_code_STTM/Data/time series/shares_TQBR_SNGSP.csv" beforeDir="false" afterPath="$PROJECT_DIR$/app/Data/time series/shares_TQBR_SNGSP.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_code_STTM/Data/time series/shares_TQBR_TATN.csv" beforeDir="false" afterPath="$PROJECT_DIR$/app/Data/time series/shares_TQBR_TATN.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_code_STTM/Data/time series/shares_TQBR_TATNP.csv" beforeDir="false" afterPath="$PROJECT_DIR$/app/Data/time series/shares_TQBR_TATNP.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_code_STTM/Data/time series/shares_TQBR_TRNFP.csv" beforeDir="false" afterPath="$PROJECT_DIR$/app/Data/time series/shares_TQBR_TRNFP.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_code_STTM/Data/time series/shares_TQBR_UPRO.csv" beforeDir="false" afterPath="$PROJECT_DIR$/app/Data/time series/shares_TQBR_UPRO.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_code_STTM/Data/time series/shares_TQBR_VTBR.csv" beforeDir="false" afterPath="$PROJECT_DIR$/app/Data/time series/shares_TQBR_VTBR.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_code_STTM/Data/time series/shares_TQBR_YNDX.csv" beforeDir="false" afterPath="$PROJECT_DIR$/app/Data/time series/shares_TQBR_YNDX.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_code_STTM/Endogen/endogen.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/Endogen/endogen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_code_STTM/Granger/granger_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/Granger/granger_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_code_STTM/Sestm/sestm.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/Sestm/sestm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_code_STTM/Shallow feature based methods of text processing/embeddings_ml_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/Shallow feature based methods of text processing/embeddings_ml_models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_code_STTM/Strategy/strategy_efficiency.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/Strategy/strategy_efficiency.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_code_STTM/Sttm/sttm.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/Sttm/sttm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_code_STTM/viz_funcs/viz_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/viz_funcs/viz_functions.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2zEefLUdhUtBDstUn6U2smMM8uw" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="openDirectoriesWithSingleClick" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/Users/m/_jobs/shartey/sttm",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-PY-251.23774.444" />
+        <option value="bundled-python-sdk-890ed5b35930-d9c5bdb153f4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.23774.444" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="47ff7ba4-f617-4ef0-bb44-873b31e6ef6e" name="Changes" comment="" />
+      <created>1751300762044</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1751300762044</updated>
+      <workItem from="1751300763148" duration="2735000" />
+      <workItem from="1751310018467" duration="2984000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

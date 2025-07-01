@@ -1,32 +1,27 @@
-from sklearn.ensemble import GradientBoostingClassifier
-from sklearn.linear_model import LogisticRegression
-from sklearn.neural_network import MLPClassifier
-from sklearn.ensemble import RandomForestClassifier
-
-
 # rolling / expanding window
+import pandas as pd
+
 
 def get_cross_validation_inds(start_date, train_date, end_date, offset, mode='expanding'):
-
     start_date = pd.to_datetime(start_date)
-    train_date = pd.to_datetime(train_date)    
+    train_date = pd.to_datetime(train_date)
     end_date = pd.to_datetime(end_date)
-        
+
     train_dates = []
     test_dates = []
-        
+
     while train_date + pd.offsets.Day() < end_date:
 
         train_dates.append([start_date, train_date])
-        test_dates.append([train_date + pd.offsets.Day(), train_date + offset])  
-                
+        test_dates.append([train_date + pd.offsets.Day(), train_date + offset])
+
         if mode == 'rolling':
             start_date = start_date + offset + pd.offsets.Day()
-        
+
         train_date += offset
-               
+
     return train_dates, test_dates
- 
+
 # # train/test dates
 # val_train_dates, val_test_dates = get_cross_validation_inds('2013-01-01', '2014-12-31', '2021-01-01', 
 #                                                             pd.offsets.YearEnd(), mode='expanding')

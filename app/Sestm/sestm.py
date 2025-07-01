@@ -1,3 +1,4 @@
+import multiprocessing as mp
 import warnings
 from copy import deepcopy
 from itertools import repeat
@@ -8,17 +9,16 @@ import numpy as np
 import optuna
 import pandas as pd
 from scipy.optimize import minimize
-import multiprocessing as mp
-
 from scipy.stats import spearmanr
-
+from src.data.array import access_via_nd_index
 from src.data.frame import between_dates
 from src.metrics import transform_to_rank
 from src.pipeline.pipeline import time_series_split
 from src.processing.processing import TextFeatures
-from src.data.array import access_via_nd_index
 from src.time import add_date_if_not_present, to_date
 
+
+# TODO undefined vars
 
 class SESTM:
 
@@ -150,7 +150,6 @@ def model_topics(word_counts, returns, fi, alpha=0.1, drop_neutral=False):
     ww_inv = np.linalg.inv(ww)
     o = hiT.T @ w.T @ ww_inv
 
-    
     o[o < 0] = 0
     o = o / o.sum(axis=0)
 
@@ -501,4 +500,6 @@ class SestmResults:
             'tone': tones_arr,
             'pred_id': index_arr,
         })
+
+
 а
