@@ -10,15 +10,14 @@ import optuna
 import pandas as pd
 from scipy.optimize import minimize
 from scipy.stats import spearmanr
-from src.data.array import access_via_nd_index
-from src.data.frame import between_dates
-from src.metrics import transform_to_rank
-from src.pipeline.pipeline import time_series_split
-from src.processing.processing import TextFeatures
-from src.time import add_date_if_not_present, to_date
 
+from app.text_features import TextFeatures
+from app.utils.utils import access_via_nd_index
+from app.utils.utils import add_date_if_not_present, to_date
+from app.utils.utils import between_dates
+from app.utils.utils import time_series_split
+from app.utils.utils import transform_to_rank
 
-# TODO undefined vars
 
 class SESTM:
 
@@ -500,6 +499,3 @@ class SestmResults:
             'tone': tones_arr,
             'pred_id': index_arr,
         })
-
-
-а
