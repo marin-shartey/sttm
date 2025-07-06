@@ -178,7 +178,7 @@ def get_dtm_word_stream(d_matrix, dtm_model, topic_id, time_id, dictionary, prob
     for cutoff in range(1, dtm_model.num_terms + 1):
         if (topic_time_word_matrix[:cutoff][:, 1].sum() > prob_mass):
             break
-    cutoff -= 1
+        cutoff -= 1
 
     top_words = np.array(topic_time_word_matrix[:cutoff][:, 0], dtype='int64')
     word_stream = d_matrix[:, top_words]
@@ -207,9 +207,9 @@ def get_dtm_topics_tonality(share, dtm_model, time_slices, train_dates, params, 
     significant_words = {}
     dtm_topic_dict = {}
 
-    dtm_tonality_matrix = np.zeros(shape=(dtm.num_topics, len(share['inds'])))
+    dtm_tonality_matrix = np.zeros(shape=(dtm_model.num_topics, len(share['inds'])))
 
-    for topic_id in tqdm_notebook(range(dtm.num_topics)):
+    for topic_id in tqdm_notebook(range(dtm_model.num_topics)):
 
         time_top_words = {}
         time_signif_words = {}
@@ -225,7 +225,7 @@ def get_dtm_topics_tonality(share, dtm_model, time_slices, train_dates, params, 
 
             time_id = np.where(np.array(time_slices) >= date)[0][0]
 
-            word_stream, top_words = get_dtm_word_stream(d_matrix, dtm, topic_id, time_id, dictionary,
+            word_stream, top_words = get_dtm_word_stream(d_matrix, dtm_model, topic_id, time_id, dictionary,
                                                          prob_mass=prob_masses[topic_id])
 
             time_top_words[time_ind] = {dictionary[word_id] for word_id in top_words}
@@ -259,7 +259,7 @@ def get_dtm_topics_tonality(share, dtm_model, time_slices, train_dates, params, 
                 nProb = 0
                 continue
 
-            probs = np.array(dtm.show_topic(topic_id, time_id,
+            probs = np.array(dtm_model.show_topic(topic_id, time_id,
                                             topn=len(top_words)))[:, 0][signif_mask].astype('float64')
             contribution = signif_values * probs
 
