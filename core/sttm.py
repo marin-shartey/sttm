@@ -79,14 +79,17 @@ def get_word_stream(d_matrix, topic_model, topic_id, prob_mass=0.3):
     non_zeroes_word = np.where(d_matrix.sum(axis=0) != 0)[0]
     topic_word_matrix = topic_word_matrix[non_zeroes_word]
 
+    top_words = np.array([], dtype='int64')
+    word_stream = np.zeros(shape=(d_matrix.shape[0], 0))
+
     for cutoff in range(1, topic_model.num_terms + 1):
         if (topic_word_matrix[:cutoff][:, 1].sum() > prob_mass):
             break
 
-    cutoff -= 1
+        cutoff -= 1
 
-    top_words = np.array(topic_word_matrix[:cutoff][:, 0], dtype='int64')
-    word_stream = d_matrix[:, top_words]
+        top_words = np.array(topic_word_matrix[:cutoff][:, 0], dtype='int64')
+        word_stream = d_matrix[:, top_words]
 
     return word_stream, top_words
 
