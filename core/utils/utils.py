@@ -5,7 +5,7 @@ import pandas as pd
 
 
 def access_via_nd_index(arr, idx):
-    arr = np.array(arr)  # ensure numpy array for advanced indexing
+    arr = np.array(arr)
     return arr[idx]
 
 
