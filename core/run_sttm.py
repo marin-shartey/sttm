@@ -1,12 +1,12 @@
 from navec import Navec
 
-from core.sample_data_loader import load_news, load_returns
-from core.embed_pipeline import train_word2vec, embed_word2vec
+from core.lib.sample_data_loader import load_news, load_returns
+from core.todo_embed_pipeline import embed_word2vec
 from core.lib.embeddings_ml_models import train_test_split, get_expanding_predictions
 
 from sklearn.ensemble import GradientBoostingClassifier
 
-from core.load_embeddings import load_word2vec
+from core.lib.load_embeddings import load_word2vec
 
 # Load data
 news = load_news()

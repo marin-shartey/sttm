@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47ff7ba4-f617-4ef0-bb44-873b31e6ef6e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/core/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/run_lda_modeling.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/embed_pipeline.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/todo_embed_pipeline.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/lib/news_preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/lib/news_preprocessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/load_embeddings.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/core/run_preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/run_preprocessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/run_sttm.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/run_sttm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/sample_data_loader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,8 +100,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-PY-251.23774.444" />
-        <option value="bundled-python-sdk-890ed5b35930-d9c5bdb153f4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.23774.444" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-PY-251.26927.90" />
+        <option value="bundled-python-sdk-41e8cd69c857-64d779b69b7a-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.26927.90" />
       </set>
     </attachedChunks>
   </component>
@@ -105,7 +114,8 @@
       <updated>1751300762044</updated>
       <workItem from="1751300763148" duration="2735000" />
       <workItem from="1751310018467" duration="2984000" />
-      <workItem from="1752143709398" duration="58014000" />
+      <workItem from="1752143709398" duration="58506000" />
+      <workItem from="1752486609296" duration="5778000" />
     </task>
     <servers />
   </component>

@@ -13,12 +13,12 @@ from nltk.corpus import stopwords
 from pymystem3 import Mystem
 from tqdm import tqdm
 
+from core.config import MYSTEM_PATH, RAW_NEWS_PATH_PARENT, PREPROCESSED_NEWS_PATH_PARENT
+
 logging.basicConfig(level=logging.DEBUG)
 
-MYSTEM_PATH = "./core/lib/mystem"
-
 class NewsPublisher(str, Enum):
-    KOMMERSANT = "kommersant",
+    KOMMERSANT = "kommersant"
     RIA_NOVOSTI = "ria_novosti"
 
 
@@ -117,9 +117,9 @@ def preprocess_single_file(file_path: str, news_publisher: Optional[NewsPublishe
     return date_str, article_text, normalized_text
 
 
-def process_news_publisher_dir(raw_data_parent_dir_path: str, publisher_dir_name: str, news_publisher: Optional[NewsPublisher], limit: int):
+def process_news_publisher_dir(publisher_dir_name: str, news_publisher: Optional[NewsPublisher], limit: int):
     yearly_data = {}
-    raw_data_dir = os.path.join(raw_data_parent_dir_path, publisher_dir_name)
+    raw_data_dir = os.path.join(RAW_NEWS_PATH_PARENT, publisher_dir_name)
 
     counter = 0
 
@@ -151,8 +151,8 @@ def process_news_publisher_dir(raw_data_parent_dir_path: str, publisher_dir_name
     return yearly_data, counter
 
 
-def write_yearly_data(output_path_parent: str, publisher_dir_name: str, yearly_data: dict[str, list[str]]):
-    output_dir = os.path.join(output_path_parent, publisher_dir_name)
+def write_yearly_data(publisher_dir_name: str, yearly_data: dict[str, list[str]]):
+    output_dir = os.path.join(PREPROCESSED_NEWS_PATH_PARENT, publisher_dir_name)
     os.makedirs(output_dir, exist_ok=True)
 
     for year, data in yearly_data.items():
