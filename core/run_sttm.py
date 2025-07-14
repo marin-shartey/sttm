@@ -1,6 +1,6 @@
 from navec import Navec
 
-from core.data_loader import load_news, load_returns
+from core.sample_data_loader import load_news, load_returns
 from core.embed_pipeline import train_word2vec, embed_word2vec
 from core.lib.embeddings_ml_models import train_test_split, get_expanding_predictions
 

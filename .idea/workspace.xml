@@ -5,59 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47ff7ba4-f617-4ef0-bb44-873b31e6ef6e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/embeddings_ml_models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/endogen.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/granger_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/sestm.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/strategy_efficiency.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/sttm.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/text_features.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/utils/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/utils/utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/viz_functions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/news/kommersant_sample.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/sample/news/kommersant_sample.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/news/ria_sample.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/sample/news/ria_sample.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/news/vedomosti_sample.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/sample/news/vedomosti_sample.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/time_series/shares_TQBR_AFKS.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/sample/time_series/shares_TQBR_AFKS.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/time_series/shares_TQBR_AFLT.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/sample/time_series/shares_TQBR_AFLT.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/time_series/shares_TQBR_ALRS.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/sample/time_series/shares_TQBR_ALRS.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/time_series/shares_TQBR_CBOM.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/sample/time_series/shares_TQBR_CBOM.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/time_series/shares_TQBR_CHMF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/sample/time_series/shares_TQBR_CHMF.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/time_series/shares_TQBR_DSKY.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/sample/time_series/shares_TQBR_DSKY.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/time_series/shares_TQBR_FEES.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/sample/time_series/shares_TQBR_FEES.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/time_series/shares_TQBR_FIVE.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/sample/time_series/shares_TQBR_FIVE.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/time_series/shares_TQBR_GAZP.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/sample/time_series/shares_TQBR_GAZP.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/time_series/shares_TQBR_GMKN.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/sample/time_series/shares_TQBR_GMKN.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/time_series/shares_TQBR_HYDR.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/sample/time_series/shares_TQBR_HYDR.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/time_series/shares_TQBR_IRAO.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/sample/time_series/shares_TQBR_IRAO.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/time_series/shares_TQBR_LKOH.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/sample/time_series/shares_TQBR_LKOH.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/time_series/shares_TQBR_LSRG.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/sample/time_series/shares_TQBR_LSRG.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/time_series/shares_TQBR_MAGN.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/sample/time_series/shares_TQBR_MAGN.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/time_series/shares_TQBR_MGNT.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/sample/time_series/shares_TQBR_MGNT.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/time_series/shares_TQBR_MOEX.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/sample/time_series/shares_TQBR_MOEX.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/time_series/shares_TQBR_MTSS.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/sample/time_series/shares_TQBR_MTSS.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/time_series/shares_TQBR_NLMK.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/sample/time_series/shares_TQBR_NLMK.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/time_series/shares_TQBR_NVTK.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/sample/time_series/shares_TQBR_NVTK.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/time_series/shares_TQBR_PHOR.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/sample/time_series/shares_TQBR_PHOR.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/time_series/shares_TQBR_PIKK.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/sample/time_series/shares_TQBR_PIKK.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/time_series/shares_TQBR_PLZL.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/sample/time_series/shares_TQBR_PLZL.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/time_series/shares_TQBR_POLY.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/sample/time_series/shares_TQBR_POLY.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/time_series/shares_TQBR_QIWI.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/sample/time_series/shares_TQBR_QIWI.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/time_series/shares_TQBR_ROSN.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/sample/time_series/shares_TQBR_ROSN.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/time_series/shares_TQBR_RSTI.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/sample/time_series/shares_TQBR_RSTI.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/time_series/shares_TQBR_RTKM.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/sample/time_series/shares_TQBR_RTKM.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/time_series/shares_TQBR_RUAL.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/sample/time_series/shares_TQBR_RUAL.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/time_series/shares_TQBR_SBER.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/sample/time_series/shares_TQBR_SBER.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/time_series/shares_TQBR_SBERP.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/sample/time_series/shares_TQBR_SBERP.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/time_series/shares_TQBR_SNGS.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/sample/time_series/shares_TQBR_SNGS.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/time_series/shares_TQBR_SNGSP.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/sample/time_series/shares_TQBR_SNGSP.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/time_series/shares_TQBR_TATN.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/sample/time_series/shares_TQBR_TATN.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/time_series/shares_TQBR_TATNP.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/sample/time_series/shares_TQBR_TATNP.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/time_series/shares_TQBR_TRNFP.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/sample/time_series/shares_TQBR_TRNFP.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/time_series/shares_TQBR_UPRO.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/sample/time_series/shares_TQBR_UPRO.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/time_series/shares_TQBR_VTBR.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/sample/time_series/shares_TQBR_VTBR.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/time_series/shares_TQBR_YNDX.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/sample/time_series/shares_TQBR_YNDX.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/run_preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/run_preprocessing.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,10 +55,38 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/core/lib" />
+      <recent name="$PROJECT_DIR$/core/lib/news_preprocessing" />
+      <recent name="$PROJECT_DIR$/core/lib/topic_modeling" />
       <recent name="$PROJECT_DIR$/data/sample" />
       <recent name="$PROJECT_DIR$/core" />
-      <recent name="$PROJECT_DIR$/core/lib" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="sttm_venv" type="PythonConfigurationType" factoryName="Python">
+      <module name="sttm" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.9 (sttm)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -129,7 +105,7 @@
       <updated>1751300762044</updated>
       <workItem from="1751300763148" duration="2735000" />
       <workItem from="1751310018467" duration="2984000" />
-      <workItem from="1752143709398" duration="5082000" />
+      <workItem from="1752143709398" duration="58014000" />
     </task>
     <servers />
   </component>

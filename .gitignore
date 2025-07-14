@@ -175,3 +175,9 @@ cython_debug/
 
 # macOS system files
 .DS_Store
+
+# Data - either symlink or full dir
+data/raw
+data/raw/
+data/preprocessed
+data/preprocessed/
