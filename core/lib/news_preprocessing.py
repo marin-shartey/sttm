@@ -117,7 +117,11 @@ def preprocess_single_file(file_path: str, news_publisher: Optional[NewsPublishe
     return date_str, article_text, normalized_text
 
 
-def process_news_publisher_dir(publisher_dir_name: str, news_publisher: Optional[NewsPublisher], limit: int):
+def process_news_publisher_dir(
+        publisher_dir_name: str,
+        news_publisher: Optional[NewsPublisher],
+        limit: int = 0
+    ) -> dict[str, list[str]] or None:
     yearly_data = {}
     raw_data_dir = os.path.join(RAW_NEWS_PATH_PARENT, publisher_dir_name)
 
@@ -148,12 +152,16 @@ def process_news_publisher_dir(publisher_dir_name: str, news_publisher: Optional
         if 0 < limit <= counter:
             break
 
-    return yearly_data, counter
+    return yearly_data
 
 
-def write_yearly_data(publisher_dir_name: str, yearly_data: dict[str, list[str]]):
+def write_yearly_data(publisher_dir_name: str, yearly_data: dict[str, list[str]] or None):
     output_dir = os.path.join(PREPROCESSED_NEWS_PATH_PARENT, publisher_dir_name)
     os.makedirs(output_dir, exist_ok=True)
+
+    if yearly_data is None:
+        logging.error(">>> No yearly data found for publisher %s", publisher_dir_name)
+        return
 
     for year, data in yearly_data.items():
         df = pd.DataFrame(data, columns=['date', 'text', 'preproc'])
