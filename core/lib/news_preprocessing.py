@@ -4,23 +4,16 @@ import re
 import string
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
-from enum import Enum
 from pathlib import Path
 from typing import Optional
 
-import pandas as pd
 from nltk.corpus import stopwords
 from pymystem3 import Mystem
 from tqdm import tqdm
 
-from core.config import MYSTEM_PATH, RAW_NEWS_PATH_PARENT, PREPROCESSED_NEWS_PATH_PARENT
+from core.config import MYSTEM_PATH, RAW_NEWS_PATH_PARENT, NewsPublisher
 
 logging.basicConfig(level=logging.DEBUG)
-
-class NewsPublisher(str, Enum):
-    KOMMERSANT = "kommersant"
-    RIA_NOVOSTI = "ria_novosti"
-
 
 russian_stopwords = set(stopwords.words("russian"))
 punctuation = set(string.punctuation)
@@ -93,7 +86,10 @@ def normalize_and_filter_tokens(tokens: list[str]) -> list[str]:
     ]
 
 
-def preprocess_single_file(file_path: str, news_publisher: Optional[NewsPublisher]) -> (str, str, str) or None:
+def preprocess_single_file(
+        file_path: str,
+        news_publisher: Optional[NewsPublisher]
+) -> tuple[str, str, str] or None:
     """
     Generate an entry for a raw news file.
     """
@@ -121,7 +117,7 @@ def process_news_publisher_dir(
         publisher_dir_name: str,
         news_publisher: Optional[NewsPublisher],
         limit: int = 0
-    ) -> dict[str, list[str]] or None:
+) -> dict[str, list[str]] or None:
     yearly_data = {}
     raw_data_dir = os.path.join(RAW_NEWS_PATH_PARENT, publisher_dir_name)
 
@@ -153,17 +149,3 @@ def process_news_publisher_dir(
             break
 
     return yearly_data
-
-
-def write_yearly_data(publisher_dir_name: str, yearly_data: dict[str, list[str]] or None):
-    output_dir = os.path.join(PREPROCESSED_NEWS_PATH_PARENT, publisher_dir_name)
-    os.makedirs(output_dir, exist_ok=True)
-
-    if yearly_data is None:
-        logging.error(">>> No yearly data found for publisher %s", publisher_dir_name)
-        return
-
-    for year, data in yearly_data.items():
-        df = pd.DataFrame(data, columns=['date', 'text', 'preproc'])
-        output_path = os.path.join(output_dir, f"{year}.csv")
-        df.to_csv(output_path, index=False)
